@@ -1,0 +1,159 @@
+<!doctype html>
+<html data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="transition-all duration-300">
+  <div class="navbar bg-base-100 shadow-sm">
+    <div class="flex-1">
+      <a class="btn btn-ghost text-xl" href="https://github.com/iskndrio">
+        <img src="../img/githublogo.png" alt="" class="w-10">
+      </a>
+      <a class="btn btn-ghost text-xl" href="https://instagram.com/iskndrio">
+        <img src="../img/Instagram_logo_2016.svg.webp" alt="" class="w-8">
+      </a>
+    </div>
+
+    <div class="flex-none items-center gap-4">
+      <label class="swap swap-rotate cursor-pointer">
+        <input id="themeToggle" type="checkbox" />
+
+        <svg class="swap-on fill-yellow-500 w-7 h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M12 18a6 6 0 110-12 6 6 0 010 12z" />
+        </svg>
+
+        <svg class="swap-off fill-current w-7 h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path
+            d="M21.64 13.65a1 1 0 0 0-1.05-.14 8 8 0 01-10-10 1 1 0 0 0-1.19-1.3A10 10 0 1022 14.7a1 1 0 0 0-.36-1.05z" />
+        </svg>
+      </label>
+
+      <ul class="menu menu-horizontal px-1 text-base font-medium">
+        <li><a href="#aboutme">About Me</a></li>
+        <li><a href="#tech">Tech Stack</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certificate">Certificate</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="items-center gap-6 p-6 text-center">
+    <img src="../img/WhatsApp Image 2025-12-09 at 20.16.29.jpeg" alt="Foto Rio"
+      class="w-32 h-32 rounded-full object-cover shadow-lg mx-auto border">
+    <div>
+      <h1 class="text-3xl font-bold text-gray-900 dark:text-white">Rio Aditia Iskandar</h1>
+      <p class="text-lg text-gray-500 dark:text-gray-400">Frontend Developer | UI/UX</p>
+    </div>
+  </div>
+
+  <section class="max-w-3xl mx-auto text-center py-10" id="aboutme">
+    <h1 class="text-3xl font-bold text-gray-900 dark:text-white">So, who am I?</h1> <br>
+    <p class="text-lg text-gray-700 dark:text-gray-300 text-justify leading-relaxed">
+      Hi! I’m Rio Aditia Iskandar, a Frontend Developer and UI/UX Designer passionate about creating clean,
+      modern, and user-friendly digital experiences.
+
+      I am currently studying at SMKN 4 Tasikmalaya, majoring in Software and Game Development.
+      Over the past three years, I’ve been deeply involved in the world of web development, exploring how great design
+      and solid frontend engineering can come together to build impactful products.
+
+      I enjoy crafting intuitive interfaces, translating ideas into responsive layouts, and turning concepts into real,
+      interactive designs. For me, coding isn’t just a skill, but a way to bring creative ideas to life.
+    </p>
+    <svg class="absolute bottom-0 left-0 w-full -z-10" viewBox="0 0 1440 320">
+      <path fill="#f3f4f6" fill-opacity="1"
+        d="M0,224L48,208C96,192,192,160,288,160C384,160,480,192,576,218.7C672,245,768,267,864,256C960,245,1056,203,1152,176C1248,149,1344,139,1392,133.3L1440,128L1440,0L0,0Z">
+      </path>
+    </svg>
+  </section>
+
+  <section class="max-w-5xl mx-auto px-6 py-16" id="tech">
+    <h2 class="text-3xl font-bold mb-8 text-center text-gray-900 dark:text-white">Tech Stack</h2>
+
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-10 place-items-center">
+
+      <div class="flex flex-col items-center gap-2">
+        <img src="../img/Tailwind_CSS_Logo.svg.png" class="w-16 h-16 object-contain">
+        <p class="text-gray-500 dark:text-gray-400 text-sm">Tailwind CSS</p>
+      </div>
+
+      <div class="flex flex-col items-center gap-2">
+        <img src="../img/javascript-removebg-preview.png" class="w-16 h-16 object-contain">
+        <p class="text-gray-500 dark:text-gray-400 text-sm">JavaScript</p>
+      </div>
+
+      <div class="flex flex-col items-center gap-2">
+        <img src="../img/React-icon.svg.png" class="w-16 h-16 object-contain">
+        <p class="text-gray-500 dark:text-gray-400 text-sm">React JS</p>
+      </div>
+
+      <div class="flex flex-col items-center gap-2">
+        <img src="../img/Bootstrap_logo.svg.png" class="w-16 h-16 object-contain">
+        <p class="text-gray-500 dark:text-gray-400 text-sm">Bootstrap 5</p>
+      </div>
+
+      <div class="flex flex-col items-center gap-2">
+        <img src="../img/git.png" class="w-16 h-16 object-contain">
+        <p class="text-gray-500 dark:text-gray-400 text-sm">Git</p>
+      </div>
+
+      <div class="flex flex-col items-center gap-2">
+        <img src="../img/Npm-logo.svg.png" class="w-16 h-16 object-contain">
+        <p class="text-gray-500 dark:text-gray-400 text-sm">NPM</p>
+      </div>
+
+      <div class="flex flex-col items-center gap-2">
+        <img src="../img/canva.png" class="w-16 h-16 object-contain">
+        <p class="text-gray-500 dark:text-gray-400 text-sm">Canva</p>
+      </div>
+
+      <div class="flex flex-col items-center gap-2">
+        <img src="../img/Figma.png" class="w-16 h-16 object-contain">
+        <p class="text-gray-500 dark:text-gray-400 text-sm">Figma</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="max-w-5xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold mb-8 text-center text-gray-900 dark:text-white">My Projects</h2>
+
+    <div id="projects" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8"></div>
+  </section>
+
+  <section class="py-16 bg-gray-50 dark:bg-gray-900">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white">Certificates</h2>
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8" id="certificate"></div>
+    </div>
+  </section>
+
+  <section class="w-full bg-gray-100 dark:bg-base-200 py-16 px-6">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-4 text-gray-800 dark:text-white">Contact Me</h2>
+      <p class="text-gray-600 dark:text-gray-400 mb-8 text-lg">
+        Have questions or want to collaborate? Contact me via email.
+      </p>
+      <a href="mailto:rioiskandar1219@gmail.com" class="inline-flex items-center gap-2 bg-red-600 text-white px-8 py-3 rounded-xl text-lg 
+           font-semibold shadow-lg hover:bg-red-700 hover:shadow-xl transition-all duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="w-6 h-6">
+          <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 
+             0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 
+             8-5v2z" />
+        </svg>
+        Email Me
+      </a>
+    </div>
+  <footer class="text-center py-5">© 2025 Rio Aditia Iskandar</footer>
+  </section>
+
+  <script src="main.js"></script>
+  <script src="certificate.js"></script>
+</body>
+
+</html>
