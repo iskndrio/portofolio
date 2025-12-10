@@ -1,9 +1,9 @@
 const certificate = [
-    {img: "../certificate/dasar ai.jpg", title: "Belajar Dasar AI", teks1: "Dicoding Indonesia"},
-    {img: "../certificate/dasar web.jpg", title: "Belajar Dasar Pemograman", teks1: "Dicoding Indonesia"},
-    {img: "../certificate/financial lteracy.jpg", title: "Introduction to financial literacy", teks1: "Dicoding Indonesia"},
-    {img: "../certificate/sertifikat _1.jpg", title: "LKS Web Technology", teks1: "DISDIK Jabar"},
-    {img: "../certificate/sertifikat _2.jpg", title: "TOEIC Test", teks1: "TOEIC"},
+    {img: "certificate/dasar ai.jpg", title: "Belajar Dasar AI", teks1: "Dicoding Indonesia"},
+    {img: "certificate/dasar web.jpg", title: "Belajar Dasar Pemograman", teks1: "Dicoding Indonesia"},
+    {img: "certificate/financial lteracy.jpg", title: "Introduction to financial literacy", teks1: "Dicoding Indonesia"},
+    {img: "certificate/sertifikat _1.jpg", title: "LKS Web Technology", teks1: "DISDIK Jabar"},
+    {img: "certificate/sertifikat _2.jpg", title: "TOEIC Test", teks1: "TOEIC"},
 ];
 
 const certContainer = document.getElementById("certificate");

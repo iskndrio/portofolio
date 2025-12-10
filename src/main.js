@@ -1,9 +1,9 @@
 let projects = [
-    { title: "SMKN 4 Tasikmalaya website display", img: "../projects/smkn4 .png", link: "https://ukkrio4tsm.netlify.app/" },
-    { title: "Ode Convection website display", img: "../projects/odekonveksi.png", link: "https://odekonveksi.netlify.app/" },
-    { title: "Copy Adobe UI with Bootstrap5", img: "../projects/adobe.png", link: "https://spiffy-figolla-d12a3e.netlify.app/" },
-    { title: "Todo List with JavaScript", img: "../projects/todolist.png", link: "https://todolistrio.netlify.app/" },
-    { title: "LKS Mart 2025", img: "../projects/lksmart.png", link: "https://todolistrio.netlify.app/" },
+    { title: "SMKN 4 Tasikmalaya website display", img: "projects/smkn4 .png", link: "https://ukkrio4tsm.netlify.app/" },
+    { title: "Ode Convection website display", img: "projects/odekonveksi.png", link: "https://odekonveksi.netlify.app/" },
+    { title: "Copy Adobe UI with Bootstrap5", img: "projects/adobe.png", link: "https://spiffy-figolla-d12a3e.netlify.app/" },
+    { title: "Todo List with JavaScript", img: "projects/todolist.png", link: "https://todolistrio.netlify.app/" },
+    { title: "LKS Mart 2025", img: "projects/lksmart.png", link: "https://todolistrio.netlify.app/" },
 ];
 
 let mainContainer = document.getElementById("projects");
