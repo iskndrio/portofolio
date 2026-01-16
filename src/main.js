@@ -10,16 +10,11 @@ let mainContainer = document.getElementById("projects");
 
 projects.forEach((item) => {
     let cardHTML = `
-        <div class="bg-base-100 shadow-md rounded-xl overflow-hidden hover:shadow-xl transition">
+        <div onclick="targetBlank('${item.link}')" class="bg-base-100 shadow-md rounded-xl overflow-hidden hover:shadow-xl transition">
             <img src="${item.img}" alt="${item.title}" class="w-full h-40 object-cover">
 
             <div class="p-4">
                 <h3 class="text-lg font-semibold mb-2">${item.title}</h3>
-
-                <a href="${item.link}" target="_blank" 
-                   class="w-full">
-                    Lets See
-                </a>
             </div>
         </div>
     `;
@@ -27,3 +22,8 @@ projects.forEach((item) => {
 
     mainContainer.insertAdjacentHTML("beforeend", cardHTML);
 });
+
+
+function targetBlank(link) {
+    window.open(link, "_blank");
+}
