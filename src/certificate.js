@@ -4,6 +4,7 @@ const certificate = [
     {img: "certificate/financial lteracy.jpg", title: "Introduction to financial literacy", teks1: "Dicoding Indonesia"},
     {img: "certificate/sertifikat _1.jpg", title: "LKS Web Technology", teks1: "DISDIK Jabar"},
     {img: "certificate/sertifikat _2.jpg", title: "TOEIC Test", teks1: "TOEIC"},
+    {img: "certificate/serkom.png", title: "Sertifikasi SERKOM", teks1: "SERKOM"},
 ];
 
 const certContainer = document.getElementById("certificate");
